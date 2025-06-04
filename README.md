@@ -5,12 +5,12 @@ import torch.nn.functional as F
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# 例文：「私は ケーキが 好きです」→ 4単語、次元数4のベクトル
+
 tokens = tokens = ["彼", "は", "それ", "を", "見て", "笑った", "けど", "私", "は", "少し", "怖かった", "。"]
 
 x = torch.randn(12, 12)
 
-# ===== Step 2: Q, K, Vの作成（簡単に x そのまま使う） =====
+# ===== Step 2: Q, K, Vの作成（ =====
 Q = x
 K = x
 V = x
